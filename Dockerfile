@@ -1,4 +1,4 @@
-FROM erlang:19.3-slim
+FROM erlang:20-slim
 
 RUN DEBIAN_FRONTEND=noninteractive \
     && buildDeps=' \
